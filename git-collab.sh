@@ -35,7 +35,16 @@ echo "🚀 Pushed to GitHub: $branch"
 read -p "🧾 Enter Pull Request title: " pr_title
 read -p "✏️ Enter Pull Request body/description: " pr_body
 
-# Create PR using GitHub CLI
-gh pr create --base main --head $branch --title "$pr_title" --body "$pr_body"
+read -p "👥 Enter GitHub usernames of reviewers (comma-separated, no spaces): " reviewers
+read -p "🏷️ Enter labels (comma-separated, e.g., bug, enhancement): " labels
 
-echo "✅ Pull Request created successfully!"
+# Create PR using GitHub CLI with reviewers and labels
+gh pr create \
+  --base main \
+  --head $branch \
+  --title "$pr_title" \
+  --body "$pr_body" \
+  --reviewer "${reviewers//,/ }" \
+  --label "$labels"
+
+echo "✅ Pull Request created with reviewers and labels!"
