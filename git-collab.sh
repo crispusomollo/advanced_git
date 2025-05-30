@@ -4,8 +4,8 @@ echo "🔄 Starting Git Collaboration Workflow"
 
 # Step 1: Pull from main
 echo "➡️  Switching to main and pulling latest changes..."
-git checkout main
-git pull origin main
+git checkout eugine
+git pull origin eugine
 
 # Step 2: Create new branch
 read -p "📝 Enter your new branch name (e.g. feature/my-task): " branch
