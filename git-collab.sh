@@ -40,7 +40,7 @@ read -p "🏷️ Enter labels (comma-separated, e.g., bug, enhancement): " label
 
 # Create PR using GitHub CLI with reviewers and labels
 gh pr create \
-  --base main \
+  --base chris \
   --head $branch \
   --title "$pr_title" \
   --body "$pr_body" \
