@@ -57,8 +57,10 @@ You'll see a menu:
 To fully remove the GitCollab tools:
 1. Download and run the uninstall script:
 wget https://your-link.com/uninstall-gitcollab.sh
-chmod +x uninstall-gitcollab.sh
-./uninstall-gitcollab.sh
+
+2. chmod +x uninstall-gitcollab.sh
+
+3. ./uninstall-gitcollab.sh
 
 🙌 Maintained by
 Crispus Omollo
@@ -69,5 +71,3 @@ Crispus Omollo
 MIT License
 
 ---
-
-## ✅ Next Steps
