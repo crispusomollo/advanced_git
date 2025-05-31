@@ -32,8 +32,6 @@ sudo dpkg -i gitcollab-tools.deb
 🎉 GitCollab Tools installed successfully!
 👉 Run 'gitmenu' in any project to start collaborating.
 🚀 Happy coding, Crispus!
-yaml
-CopyEdit
 
 ---
 
@@ -47,8 +45,8 @@ You'll see a menu:
 ==============================
 🚀 GIT COLLABORATION MENU
 ==============================
-1️. Start New Feature / Task
-2️. Review & Merge Pull Requests
+1. Start New Feature / Task
+2. Review & Merge Pull Requests
 3. Git Utilities (status, pull, fetch)
 4. Branch Management (switch/delete)
 5. Exit
@@ -57,15 +55,15 @@ You'll see a menu:
 
 🧹 Uninstalling
 To fully remove the GitCollab tools:
-1.	Download and run the uninstall script:
+1. Download and run the uninstall script:
 wget https://your-link.com/uninstall-gitcollab.sh
 chmod +x uninstall-gitcollab.sh
 ./uninstall-gitcollab.sh
 
 🙌 Maintained by
 Crispus Omollo
-🛠️ IT Professional | Team DevOps Advocate
-📧 crispus.omollo@example.com
+🛠️ Tech Junkie | DevOps and Automation Advocate
+📧 crispus.omollo@gmail.com
 
 💡 License
 MIT License
