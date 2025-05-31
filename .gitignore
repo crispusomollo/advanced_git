@@ -1,0 +1,47 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+
+# Logs and backups
+*.log
+*.bak
+*.tmp
+*.swp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+
+# Python virtual environment
+venv/
+env/
+
+# Build output (common for Sphinx, MkDocs, etc.)
+site/
+_build/
+dist/
+build/
+
+# Node (if you’re using tools like Docusaurus)
+node_modules/
+
+# Environment files (if any secrets)
+.env
+
+# Compiled output
+*.pdf
+*.html
+
+# Coverage/test outputs
+coverage/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+
+.bashrc
